@@ -1,0 +1,119 @@
+.header-color{
+background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*Landing page*/
+.landing-grid{
+background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+width: 100%;
+}
+.avatar-img {
+  height: 300px;
+  width: 300px;
+  margin-top:5em;
+  border-radius: 230px;
+}
+.banner-text{
+  width: 75%;
+}
+.banner-text h1{
+  font-size:66px;
+  font-weight: bold;
+}
+.banner-text hr{
+  border-width: 7px;
+  border-top-style: dotted;
+  margin:auto;
+}
+.banner-text p {
+  padding:1em;
+}
+
+.social-links{
+ display:flex;
+ justify-content: space-between ;
+ width: 50%;
+ margin: auto;
+}
+.social-links i {
+  color:white;
+  font-size: 5em;
+  padding: 10px;
+}
+
+/* Contact Page */
+.contactBody{
+  margin:auto;
+  background: rgb(115, 0, 199);
+ background: -webkit-linear-gradient(77deg, rgb(115, 0, 199) 27%, rgb(255, 0, 0) 100%);
+ background: -o-linear-gradient(77deg, rgb(115, 0, 199) 27%, rgb(255, 0, 0) 100%);
+ background: -ms-linear-gradient(77deg, rgb(115, 0, 199) 27%, rgb(255, 0, 0) 100%);
+ background: linear-gradient(77deg, rgb(115, 0, 199) 27%, rgb(255, 0, 0) 100%);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding: 2em;
+}
+.contactGrid{
+  text-align:center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: rgb(152, 109, 199);
+background: -webkit-linear-gradient(77deg, rgb(152, 109, 199) 0%, rgb(255, 219, 198) 100%);
+background: -o-linear-gradient(77deg, rgb(152, 109, 199) 0%, rgb(255, 219, 198) 100%);
+background: -ms-linear-gradient(77deg, rgb(152, 109, 199) 0%, rgb(255, 219, 198) 100%);
+background: linear-gradient(77deg, rgb(152, 109, 199) 0%, rgb(255, 219, 198) 100%);
+}
+.avatar-img2{
+  height: 200px;
+  width: 300px;
+  border-radius:10px;
+}
+.contactList i{
+  font-size:2em;
+  padding:0 1em;
+}
+.contactGrid hr{
+  border-top:5px dotted;
+}
+
+/*Resume*/
+.avatar-resume{
+  height: 200px;
+}
+.resumeRightCol{
+  background: #27221f;
+  color:white;
+}
+
+/*AboutMe*/
+.aboutMe{
+  background: linear-gradient(45deg, Aquamarine, GreenYellow);
+}
+.avatar-aboutMe{
+  height: 300px;
+  width: 300px;
+  border-radius: 230px;
+}
+.aboutMe h1{
+  font-weight: bold;
+  margin-bottom: 2.5em;
+}
+.aboutMe p{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom:10em;
+  width: auto;
+  text-align:center;
+  
+  border-radius: 10px;
+  background: -webkit-linear-gradient(45deg, rgb(90, 171, 152) 6%, rgb(34, 186, 16) 93%);
+background: -moz-linear-gradient(45deg, rgb(90, 171, 152) 6%, rgb(34, 186, 16) 93%);
+background: linear-gradient(45deg, rgb(90, 171, 152) 6%, rgb(34, 186, 16) 93%);
+}

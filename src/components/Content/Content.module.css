@@ -1,0 +1,30 @@
+.content{
+    grid-area:content;
+    background-color: deeppink;
+    display:grid;
+    grid-template-areas: 'avatar des';
+    grid-template-rows:1fr;
+    grid-template-columns: 2fr 10fr;
+  }
+  .avatar img{
+    width: 400px;
+  }
+  .description {
+    color: blue;
+    vertical-align: top;
+    grid-area:'des';
+    padding: 0 0 0 50px;
+   }
+   .avatar {
+    display: inline-block;
+    grid-area:'avatar';
+   }
+   hr{
+     width:70%;
+   }
+   .name{
+     font-size: 25px;
+   }
+   .status{
+     color:black;
+   }
